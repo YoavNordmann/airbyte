@@ -1,0 +1,22 @@
+data:
+  registries:
+    oss:
+      enabled: true
+    cloud:
+      enabled: true
+  connectorSubtype: file
+  connectorType: destination
+  definitionId: 7bb7882d-7e76-41f2-84b3-5aab9b5ebd6f
+  dockerImageTag: 0.9.0
+  dockerRepository: airbyte/destination-rest
+  githubIssueLabel: destination-rest
+  icon: rest.svg
+  license: MIT
+  name: Rest
+  releaseDate: TODO
+  releaseStage: alpha
+  supportLevel: community
+  documentationUrl: https://docs.airbyte.com/integrations/destinations/rest
+  tags:
+    - language:python
+metadataSpecVersion: "1.0"
